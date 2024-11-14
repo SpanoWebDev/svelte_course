@@ -1,0 +1,10 @@
+<script>
+    import { getContext } from "svelte";
+    import {key} from "./context"
+
+    const color = getContext(key)
+</script>
+
+<div>
+    Child2 : {color}
+</div>

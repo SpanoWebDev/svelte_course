@@ -1,4 +1,6 @@
 <script>
+   
+
     export let friend
     let name = friend.name
     message = ''
@@ -14,3 +16,9 @@
        loading = false
     }
 </script>
+
+<div>
+    <ul>
+        kite
+    </ul>
+</div>

@@ -12,6 +12,7 @@
   import KeyedEach from "../course/KeyedEach/KeyedEach.svelte";
   import Await from "../course/Await/Await.svelte";
   import Key from "../course/KeyBlock/Key.svelte";
+  import Context from "../course/Contextt/Context.svelte";
 
   let obj = {
     name: 'spn',
@@ -151,4 +152,14 @@
 
 <div>
   <Key/>
+</div>
+
+<!--
+  Context
+-->
+
+<hr class="border-slate-900">
+
+<div>
+  <Context/>
 </div>
