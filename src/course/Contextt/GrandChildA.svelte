@@ -1,6 +1,8 @@
 <script>
   import { getContext } from "svelte";
+  import { key } from "./context";
 
-    const color = getContext('color')
+    const color = getContext(key,'color')
 </script>
-<div class={color = "text-red-900"}>GrandChildA</div>
+<div style="color: {color}">GrandChildA</div>
+

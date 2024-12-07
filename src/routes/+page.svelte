@@ -13,6 +13,8 @@
   import Await from "../course/Await/Await.svelte";
   import Key from "../course/KeyBlock/Key.svelte";
   import Context from "../course/Contextt/Context.svelte";
+  import Parent2 from "../course/Contextt/Parent2.svelte";
+  import Context2 from "../course/ContextComunication/Context2.svelte";
 
   let obj = {
     name: 'spn',
@@ -156,10 +158,22 @@
 
 <!--
   Context
+  Passing data from parent to descendants
 -->
 
 <hr class="border-slate-900">
 
 <div>
   <Context/>
+</div>
+<hr class="border-slate-900">
+  <Parent2/>
+<hr class="border-slate-900">
+
+<!--
+  Context Communication
+  Passing data from parent to descendants and from descendants to parents
+-->
+<div>
+  <Context2/>
 </div>

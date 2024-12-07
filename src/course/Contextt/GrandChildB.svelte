@@ -1,5 +1,8 @@
 <script>
-    export let color
+    import { getContext } from "svelte";
+    import { key } from "./context";
+
+    const color = getContext(key,"color")
 </script>
 
-<div>GrandChildB : </div>
+<div>GrandChildB : {color}</div>

@@ -23,6 +23,8 @@ $:promise = getRandomDogImage(selectedBreed)//reactive statement
     //         })
     // }
 
+    //God bless you
+
     // async function fetchDogImageUsingAwait(breed) {
     //     try {
     //         hasError = false
